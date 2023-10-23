@@ -99,9 +99,9 @@ int	fillcheck(char **array, int array_width)
 				if ((array[i - 1][j] == '0' || array[i - 1][j] == '1'
 				|| array[i - 1][j] == 'N' || array[i - 1][j] == 'S'
 				|| array[i - 1][j] == 'E' || array[i - 1][j] == 'W')
-				&& (array[i + 1][j] == '0' || array[i + 1][j] == '1')
+				&& (array[i + 1][j] == '0' || array[i + 1][j] == '1'
 				|| array[i + 1][j] == 'N' || array[i + 1][j] == 'S'
-				|| array[i + 1][j] == 'E' || array[i + 1][j] == 'W')
+				|| array[i + 1][j] == 'E' || array[i + 1][j] == 'W'))
 					j++;
 				else
 					return (1);
